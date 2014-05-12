@@ -28,7 +28,7 @@ with (dt, {
   legend("top",bty="n",col=c("black","red","blue"),lty=c(1,1),legend=c("Sub_metering_1","Sub_metering_2","Sub_metering_3"),cex=0.8)
   
   # chart 4: global reactive power
-  plot(datetime,Global_reactive_power,type="l",xlab="",ylab="Global Active Power (kilowatts)")
+  plot(datetime,Global_reactive_power,type="l",xlab="")
   
 })
 
